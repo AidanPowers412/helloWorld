@@ -1,0 +1,51 @@
+/* I am inputting designs for my paragraphs */
+
+p {
+  font-size: 16px;
+  color: #C63719;
+  line-height: 1.8;
+  margin-bottom: 1.2em;
+}
+
+/* I am inputting designs for my headers */
+
+h2 {
+  color: #47322E;
+  font-weight: 600;
+  margin-top: 1.2em;
+  margin-bottom: 0.75em;
+}
+
+/* I am inputting designs for my table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+
+th, td {
+  border: 2px solid #DEB887;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+#special_paragraph {
+  font-style: normal;
+  color: #483D8B;
+  background-color: #F9F3F2;
+}
+
+.highlight {
+  background-color: #F5F530;
+  font-weight: 500;
+}
+
+
+.logo {
+  width: 200px;
+  height: auto;
+}

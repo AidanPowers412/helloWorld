@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Favorite Course{% endblock %}
+
+{% block content %}
+<div class="mt-4">
+    <h1>You entered your favorite course as:</h1>
+    <p>Subject: {{ request.args.get('subject', 'No Subject') }}</p>
+    <p>Course Number: {{ request.args.get('course_number', 'No Course Number') }}</p>
+</div>
+{% endblock %}
